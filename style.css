@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(292deg, rgb(113, 161, 102), rgb(196, 98, 19));
+}
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    cursor: pointer;
+}
+#timer {
+    user-select: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 108px;
+    font-family: monospace;
+}
